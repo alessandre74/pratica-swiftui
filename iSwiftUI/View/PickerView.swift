@@ -48,8 +48,6 @@ struct PickerView: View {
       }
       
       //tags com ids
-      
-      
       Form {
         Picker("Sabores", selection: $saboresID) {
           ForEach(SaboresID.allCases){ sabor in

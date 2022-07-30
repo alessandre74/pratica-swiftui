@@ -33,6 +33,15 @@
 		93B96DB0287DE9E70038DA63 /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B96DAF287DE9E70038DA63 /* ForEachView.swift */; };
 		93B96DB2287E87A90038DA63 /* BasicEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B96DB1287E87A90038DA63 /* BasicEventsView.swift */; };
 		93B96DB4287E8F4C0038DA63 /* SwiftUITipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B96DB3287E8F4C0038DA63 /* SwiftUITipsView.swift */; };
+		93C10C7A289428A300CF57A9 /* ComposingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C10C79289428A300CF57A9 /* ComposingView.swift */; };
+		93C10C7D28942A2600CF57A9 /* Phrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C10C7C28942A2600CF57A9 /* Phrase.swift */; };
+		93C10C7F28942E7B00CF57A9 /* PhraseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C10C7E28942E7B00CF57A9 /* PhraseRowView.swift */; };
+		93C10C8128942FD600CF57A9 /* NavigationAuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C10C8028942FD600CF57A9 /* NavigationAuthorView.swift */; };
+		93C10C842894319000CF57A9 /* AuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C10C832894319000CF57A9 /* AuthorView.swift */; };
+		93C10C862894335800CF57A9 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C10C852894335800CF57A9 /* Author.swift */; };
+		93C10C882894337100CF57A9 /* AuthorRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C10C872894337100CF57A9 /* AuthorRowView.swift */; };
+		93C10C8A2895089D00CF57A9 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C10C892895089D00CF57A9 /* NavigationBarView.swift */; };
+		93C10C8C28950B1B00CF57A9 /* TabView_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C10C8B28950B1B00CF57A9 /* TabView_View.swift */; };
 		93CCB6DC28808F5D00D1E9A6 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCB6DB28808F5D00D1E9A6 /* LabelView.swift */; };
 		93CCB6DE28813BF200D1E9A6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCB6DD28813BF200D1E9A6 /* ButtonView.swift */; };
 		93CCBF4328838E030003934A /* Scroll_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCBF4228838E030003934A /* Scroll_View.swift */; };
@@ -67,6 +76,15 @@
 		93B96DAF287DE9E70038DA63 /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
 		93B96DB1287E87A90038DA63 /* BasicEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicEventsView.swift; sourceTree = "<group>"; };
 		93B96DB3287E8F4C0038DA63 /* SwiftUITipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITipsView.swift; sourceTree = "<group>"; };
+		93C10C79289428A300CF57A9 /* ComposingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposingView.swift; sourceTree = "<group>"; };
+		93C10C7C28942A2600CF57A9 /* Phrase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrase.swift; sourceTree = "<group>"; };
+		93C10C7E28942E7B00CF57A9 /* PhraseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseRowView.swift; sourceTree = "<group>"; };
+		93C10C8028942FD600CF57A9 /* NavigationAuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAuthorView.swift; sourceTree = "<group>"; };
+		93C10C832894319000CF57A9 /* AuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorView.swift; sourceTree = "<group>"; };
+		93C10C852894335800CF57A9 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		93C10C872894337100CF57A9 /* AuthorRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorRowView.swift; sourceTree = "<group>"; };
+		93C10C892895089D00CF57A9 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		93C10C8B28950B1B00CF57A9 /* TabView_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_View.swift; sourceTree = "<group>"; };
 		93CCB6DB28808F5D00D1E9A6 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		93CCB6DD28813BF200D1E9A6 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		93CCBF4228838E030003934A /* Scroll_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll_View.swift; sourceTree = "<group>"; };
@@ -122,6 +140,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		93C10C7B289429DE00CF57A9 /* ComposingView */ = {
+			isa = PBXGroup;
+			children = (
+				93C10C79289428A300CF57A9 /* ComposingView.swift */,
+				93C10C7C28942A2600CF57A9 /* Phrase.swift */,
+				93C10C7E28942E7B00CF57A9 /* PhraseRowView.swift */,
+			);
+			path = ComposingView;
+			sourceTree = "<group>";
+		};
+		93C10C822894316A00CF57A9 /* NavigationAuthorView */ = {
+			isa = PBXGroup;
+			children = (
+				93C10C8028942FD600CF57A9 /* NavigationAuthorView.swift */,
+				93C10C832894319000CF57A9 /* AuthorView.swift */,
+				93C10C852894335800CF57A9 /* Author.swift */,
+				93C10C872894337100CF57A9 /* AuthorRowView.swift */,
+			);
+			path = NavigationAuthorView;
+			sourceTree = "<group>";
+		};
 		93E2614028792418008A6310 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +169,7 @@
 				939F9B072875420D00D8ECBA /* AssetsView.swift */,
 				93B96DB1287E87A90038DA63 /* BasicEventsView.swift */,
 				93CCB6DD28813BF200D1E9A6 /* ButtonView.swift */,
+				93C10C7B289429DE00CF57A9 /* ComposingView */,
 				939F9B0928754B9000D8ECBA /* CustomImageView.swift */,
 				939F9B012875188200D8ECBA /* FontShapeBackgroundOverlayView.swift */,
 				93B96DAF287DE9E70038DA63 /* ForEachView.swift */,
@@ -139,6 +179,8 @@
 				939F9B05287540E000D8ECBA /* IgnoreSafeAreaView.swift */,
 				93CCB6DB28808F5D00D1E9A6 /* LabelView.swift */,
 				93B96DAD287DC17A0038DA63 /* ListFormView.swift */,
+				93C10C822894316A00CF57A9 /* NavigationAuthorView */,
+				93C10C892895089D00CF57A9 /* NavigationBarView.swift */,
 				9347342928936B1C00EE3BC1 /* PickerView.swift */,
 				93CCBF4228838E030003934A /* Scroll_View.swift */,
 				934734272893687E00EE3BC1 /* SegmentalView.swift */,
@@ -146,6 +188,7 @@
 				93A0C2CF28911A5F007EC2A1 /* StateBindingView.swift */,
 				939F9B0D28755F7B00D8ECBA /* SwiftSwiftUIView.swift */,
 				93B96DB3287E8F4C0038DA63 /* SwiftUITipsView.swift */,
+				93C10C8B28950B1B00CF57A9 /* TabView_View.swift */,
 				93A0C2D528914C4A007EC2A1 /* TextFieldView.swift */,
 				93A0C2D3289149FF007EC2A1 /* ToggleView.swift */,
 			);
@@ -225,8 +268,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				933801D6287A8E290091F5E4 /* GroupConditionalView.swift in Sources */,
+				93C10C842894319000CF57A9 /* AuthorView.swift in Sources */,
+				93C10C8A2895089D00CF57A9 /* NavigationBarView.swift in Sources */,
 				939F9B022875188200D8ECBA /* FontShapeBackgroundOverlayView.swift in Sources */,
+				93C10C8128942FD600CF57A9 /* NavigationAuthorView.swift in Sources */,
+				93C10C882894337100CF57A9 /* AuthorRowView.swift in Sources */,
 				939F9B002875168A00D8ECBA /* FrameView.swift in Sources */,
+				93C10C8C28950B1B00CF57A9 /* TabView_View.swift in Sources */,
 				934734242893630700EE3BC1 /* AlertView.swift in Sources */,
 				939F9B0C28754DCA00D8ECBA /* AppIconView.swift in Sources */,
 				93CCB6DE28813BF200D1E9A6 /* ButtonView.swift in Sources */,
@@ -236,14 +284,18 @@
 				934734282893687E00EE3BC1 /* SegmentalView.swift in Sources */,
 				93A0C2D628914C4A007EC2A1 /* TextFieldView.swift in Sources */,
 				93A0C2D4289149FF007EC2A1 /* ToggleView.swift in Sources */,
+				93C10C862894335800CF57A9 /* Author.swift in Sources */,
+				93C10C7D28942A2600CF57A9 /* Phrase.swift in Sources */,
 				934734262893655200EE3BC1 /* SheetView.swift in Sources */,
 				93B96DB4287E8F4C0038DA63 /* SwiftUITipsView.swift in Sources */,
 				939F9B082875420D00D8ECBA /* AssetsView.swift in Sources */,
+				93C10C7F28942E7B00CF57A9 /* PhraseRowView.swift in Sources */,
 				9394B313286FE00A006546AB /* ContentView.swift in Sources */,
 				939F9B04287534C200D8ECBA /* HstackVstackIntermediateView.swift in Sources */,
 				93B96DAE287DC17A0038DA63 /* ListFormView.swift in Sources */,
 				9394B311286FE00A006546AB /* iSwiftUIApp.swift in Sources */,
 				939F9B06287540E000D8ECBA /* IgnoreSafeAreaView.swift in Sources */,
+				93C10C7A289428A300CF57A9 /* ComposingView.swift in Sources */,
 				939F9B0E28755F7B00D8ECBA /* SwiftSwiftUIView.swift in Sources */,
 				93B96DB2287E87A90038DA63 /* BasicEventsView.swift in Sources */,
 				93B96DB0287DE9E70038DA63 /* ForEachView.swift in Sources */,
